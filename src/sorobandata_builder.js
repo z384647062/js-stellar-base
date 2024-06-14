@@ -57,6 +57,7 @@ export class SorobanDataBuilder {
     }
 
     this._data = data;
+    this._data.resourceFee(new xdr.Int64(1e7));
   }
 
   /**
